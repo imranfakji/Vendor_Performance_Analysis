@@ -1,0 +1,14 @@
+2025-08-28 19:09:16,959 - INFO - Creating Vendor Summary Table.....
+2025-08-28 19:10:17,454 - INFO - Created Vendor Summary Table
+2025-08-28 19:10:17,455 - INFO -    VendorNumber                   VendorName  ...  TotalExciseTax FreightCost
+0          1128  BROWN-FORMAN CORP            ...       260999.20    68601.68
+1          4425        MARTIGNETTI COMPANIES  ...       294438.66   144929.24
+2         17035  PERNOD RICARD USA            ...       343854.07   123780.22
+3          3960  DIAGEO NORTH AMERICA INC     ...       368242.80   257032.07
+4          3960  DIAGEO NORTH AMERICA INC     ...       249587.83   257032.07
+
+[5 rows x 14 columns]
+2025-08-28 19:10:17,477 - INFO - Cleaning Data......
+2025-08-28 19:10:17,494 - INFO - Cleaned Data
+2025-08-28 19:10:17,494 - INFO - Ingesting Data into DB......
+2025-08-28 19:10:18,091 - INFO - Ingested Data into DB
