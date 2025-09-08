@@ -159,14 +159,6 @@ Open `Notebooks/3_Vendor_Performance_Analysis.ipynb` to run the code that produc
 ---
 
 ## 📝 Author
-Project owner: **Master** (update this line with your actual name/email if you want public credit)
+Project owner: **Imran Fakji** (update this line with your actual name/email if you want public credit)
 
 ---
-
-If you want, I can now:
-- generate a `requirements.txt` for this project, or
-- convert this README to a `README.md` file inside the repository and save it for you, or
-- make the README shorter/longer or with more visuals (example screenshots from `/Visuals`).
-
-Tell me which of the above you'd like next, Master.
-
