@@ -109,19 +109,19 @@ jupyter notebook Notebooks/3_Vendor_Performance_Analysis.ipynb
 
 ---
 
-![barplot.png](Vendor_Performance_Analysis/Visuals/barplot.png)
+![barplot.png](Visuals/barplot.png)
 
 *The barplot reveals that a few vendors dominate total sales and profit, indicating revenue concentration among top performers.*
 
-![columnchart.png](Vendor_Performance_Analysis/Visuals/columnchart.png)
+![columnchart.png](Visuals/columnchart.png)
 
 *The column chart shows clear differences in sales across vendors, underlining uneven performance distribution.*
 
-![donutchart.png](Vendor_Performance_Analysis/Visuals/donutchart.png)
+![donutchart.png](Visuals/donutchart.png)
 
 *The donut chart illustrates that top vendors account for the majority of sales share, while many smaller vendors contribute marginally.*
 
-![countplot.png](Vendor_Performance_Analysis/Visuals/countplot.png)
+![countplot.png](Visuals/countplot.png)
 
 *The countplot demonstrates how frequently products or vendors appear, showing skewed representation across categories.*
 
@@ -136,27 +136,27 @@ jupyter notebook Notebooks/3_Vendor_Performance_Analysis.ipynb
 ---
 
 ## 🎯 Key findings## 🎯 Key findings (from the notebooks)
-![scatterplot.png](Vendor_Performance_Analysis/Visuals/scatterplot.png)
+![scatterplot.png](Visuals/scatterplot.png)
 
 *The scatterplot demonstrates a near-linear relationship between purchases and sales, confirming that inventory generally sells proportionally to procurement.*
 
-![heatmap.png](Vendor_Performance_Analysis/Visuals/heatmap.png)
+![heatmap.png](Visuals/heatmap.png)
 
 *The heatmap confirms strong positive correlation between total purchased and total sold quantities, validating demand alignment.*
 
-![boxplot.png](Vendor_Performance_Analysis/Visuals/boxplot.png)
+![boxplot.png](Visuals/boxplot.png)
 
 *The boxplot highlights significant outliers in freight costs, suggesting irregular charges or special shipping cases.*
 
-![histogram.png](Vendor_Performance_Analysis/Visuals/histogram.png)
+![histogram.png](Visuals/histogram.png)
 
 *The histogram shows that profit margins and sales distributions are skewed, with many vendors clustered at low values and few high outliers.*
 
-![histplot.png](Vendor_Performance_Analysis/Visuals/histplot.png)
+![histplot.png](Visuals/histplot.png)
 
 *The histplot reinforces the skewed distribution of vendor sales, emphasizing that most vendors generate low revenue compared to a few high performers.*
 
-![histplot_high_low_vendors.png](Vendor_Performance_Analysis/Visuals/histplot_high_low_vendors.png)
+![histplot_high_low_vendors.png](Visuals/histplot_high_low_vendors.png)
 
 *The histplot comparison shows distinct separation: top vendors maintain consistently higher sales while low performers cluster near zero.*
 
