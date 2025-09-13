@@ -109,6 +109,22 @@ jupyter notebook Notebooks/3_Vendor_Performance_Analysis.ipynb
 
 ---
 
+![barplot.png](Vendor_Performance_Analysis/Visuals/barplot.png)
+
+*The barplot reveals that a few vendors dominate total sales and profit, indicating revenue concentration among top performers.*
+
+![columnchart.png](Vendor_Performance_Analysis/Visuals/columnchart.png)
+
+*The column chart shows clear differences in sales across vendors, underlining uneven performance distribution.*
+
+![donutchart.png](Vendor_Performance_Analysis/Visuals/donutchart.png)
+
+*The donut chart illustrates that top vendors account for the majority of sales share, while many smaller vendors contribute marginally.*
+
+![countplot.png](Vendor_Performance_Analysis/Visuals/countplot.png)
+
+*The countplot demonstrates how frequently products or vendors appear, showing skewed representation across categories.*
+
 ## 🔍 Key metrics & definitions (simple and clear)
 - **Total Sales ($)** — sum of sales revenue for a brand/vendor.
 - **Total Purchase ($)** — sum of purchase spend for a brand/vendor.
@@ -119,22 +135,31 @@ jupyter notebook Notebooks/3_Vendor_Performance_Analysis.ipynb
 
 ---
 
-## 📈 Visuals included (what each image shows)
-- `barplot.png` — vendor/brand ranking by a chosen metric (e.g., revenue or profit).
-- `boxplot.png` — distribution and outliers for price/cost metrics.
-- `columnchart.png` — categorical comparisons (sales or count by vendor/brand).
-- `countplot.png` — frequency distribution of a categorical variable.
-- `donutchart.png` — contribution share (e.g., top vendors % of sales).
-- `heatmap.png` — correlation map between numerical features.
-- `histogram.png`, `histplot.png` — distribution of a numeric variable (sales, margins).
-- `histplot_high_low_vendors.png` — comparison of distribution between top and low performers.
-- `scatterplot.png` — relationship between two numeric metrics (e.g., total purchase vs total sales).
+## 🎯 Key findings## 🎯 Key findings (from the notebooks)
+![scatterplot.png](Vendor_Performance_Analysis/Visuals/scatterplot.png)
 
-Open `Notebooks/3_Vendor_Performance_Analysis.ipynb` to run the code that produced these images and reproduce them with your own data.
+*The scatterplot demonstrates a near-linear relationship between purchases and sales, confirming that inventory generally sells proportionally to procurement.*
 
----
+![heatmap.png](Vendor_Performance_Analysis/Visuals/heatmap.png)
 
-## 🎯 Key findings (from the notebooks)
+*The heatmap confirms strong positive correlation between total purchased and total sold quantities, validating demand alignment.*
+
+![boxplot.png](Vendor_Performance_Analysis/Visuals/boxplot.png)
+
+*The boxplot highlights significant outliers in freight costs, suggesting irregular charges or special shipping cases.*
+
+![histogram.png](Vendor_Performance_Analysis/Visuals/histogram.png)
+
+*The histogram shows that profit margins and sales distributions are skewed, with many vendors clustered at low values and few high outliers.*
+
+![histplot.png](Vendor_Performance_Analysis/Visuals/histplot.png)
+
+*The histplot reinforces the skewed distribution of vendor sales, emphasizing that most vendors generate low revenue compared to a few high performers.*
+
+![histplot_high_low_vendors.png](Vendor_Performance_Analysis/Visuals/histplot_high_low_vendors.png)
+
+*The histplot comparison shows distinct separation: top vendors maintain consistently higher sales while low performers cluster near zero.*
+
 - **Large outliers in freight costs** — freight values vary greatly (min near 0, max very large), suggesting either data issues or bulk shipments / special logistics cases.
 - **Wide price variation** — Purchase and Actual Prices show high standard deviations; some products are premium priced.
 - **Stock turnover is uneven** — values range from very low (0) to high (>200), indicating inconsistent inventory management across items/vendors.
